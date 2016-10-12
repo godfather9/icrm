@@ -28,6 +28,7 @@ ui <- dashboardPage(
     ),
     fluidRow(
       box(plotlyOutput("plot2", height = 200)),
+      box(plotlyOutput("plot1", height = 200)),
       box(plotlyOutput("plot1", height = 200))
     ),
     fluidRow(
